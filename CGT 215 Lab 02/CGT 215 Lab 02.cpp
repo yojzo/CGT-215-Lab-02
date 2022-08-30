@@ -3,9 +3,31 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::cout << "Hello, my name is Jack, and in Lab 02 we will be solving Ax + B = 0 for x \n";
+
+	float A;
+	float B;
+	float X;
+
+	cout << "Please enter a value for A: ";
+	cin >> A;
+
+	cout << "Please enter a value for B: ";
+	cin >> B;
+
+	X = -B / A;
+	
+	cout << "A=" << A << endl;
+
+	cout << "B=" << B << endl;
+
+	cout << "Now solving " << A <<"x + " << B << " = 0 ... \n";
+
+	cout << "And the answer is:" << X << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
